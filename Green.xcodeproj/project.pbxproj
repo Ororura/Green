@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		BAFD2D6E2CB43762005ED862 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BAFD2D542CB43761005ED862 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BAFD2D5B2CB43761005ED862;
-			remoteInfo = Green;
-		};
-		BAFD2D782CB43762005ED862 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BAFD2D542CB43761005ED862 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BAFD2D5B2CB43761005ED862;
-			remoteInfo = Green;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		BAFD2D5C2CB43761005ED862 /* Green.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Green.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAFD2D6D2CB43762005ED862 /* GreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAFD2D772CB43762005ED862 /* GreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = Green;
 			sourceTree = "<group>";
 		};
-		BAFD2D702CB43762005ED862 /* GreenTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GreenTests;
-			sourceTree = "<group>";
-		};
-		BAFD2D7A2CB43762005ED862 /* GreenUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GreenUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BAFD2D592CB43761005ED862 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAFD2D6A2CB43762005ED862 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAFD2D742CB43762005ED862 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				BAFD2D5E2CB43761005ED862 /* Green */,
-				BAFD2D702CB43762005ED862 /* GreenTests */,
-				BAFD2D7A2CB43762005ED862 /* GreenUITests */,
 				BAFD2D5D2CB43761005ED862 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				BAFD2D5C2CB43761005ED862 /* Green.app */,
-				BAFD2D6D2CB43762005ED862 /* GreenTests.xctest */,
-				BAFD2D772CB43762005ED862 /* GreenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +70,6 @@
 			productReference = BAFD2D5C2CB43761005ED862 /* Green.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BAFD2D6C2CB43762005ED862 /* GreenTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BAFD2D842CB43762005ED862 /* Build configuration list for PBXNativeTarget "GreenTests" */;
-			buildPhases = (
-				BAFD2D692CB43762005ED862 /* Sources */,
-				BAFD2D6A2CB43762005ED862 /* Frameworks */,
-				BAFD2D6B2CB43762005ED862 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BAFD2D6F2CB43762005ED862 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BAFD2D702CB43762005ED862 /* GreenTests */,
-			);
-			name = GreenTests;
-			packageProductDependencies = (
-			);
-			productName = GreenTests;
-			productReference = BAFD2D6D2CB43762005ED862 /* GreenTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BAFD2D762CB43762005ED862 /* GreenUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BAFD2D872CB43762005ED862 /* Build configuration list for PBXNativeTarget "GreenUITests" */;
-			buildPhases = (
-				BAFD2D732CB43762005ED862 /* Sources */,
-				BAFD2D742CB43762005ED862 /* Frameworks */,
-				BAFD2D752CB43762005ED862 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BAFD2D792CB43762005ED862 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BAFD2D7A2CB43762005ED862 /* GreenUITests */,
-			);
-			name = GreenUITests;
-			packageProductDependencies = (
-			);
-			productName = GreenUITests;
-			productReference = BAFD2D772CB43762005ED862 /* GreenUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +82,6 @@
 				TargetAttributes = {
 					BAFD2D5B2CB43761005ED862 = {
 						CreatedOnToolsVersion = 16.0;
-					};
-					BAFD2D6C2CB43762005ED862 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = BAFD2D5B2CB43761005ED862;
-					};
-					BAFD2D762CB43762005ED862 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = BAFD2D5B2CB43761005ED862;
 					};
 				};
 			};
@@ -201,28 +100,12 @@
 			projectRoot = "";
 			targets = (
 				BAFD2D5B2CB43761005ED862 /* Green */,
-				BAFD2D6C2CB43762005ED862 /* GreenTests */,
-				BAFD2D762CB43762005ED862 /* GreenUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BAFD2D5A2CB43761005ED862 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAFD2D6B2CB43762005ED862 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAFD2D752CB43762005ED862 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAFD2D692CB43762005ED862 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BAFD2D732CB43762005ED862 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BAFD2D6F2CB43762005ED862 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BAFD2D5B2CB43761005ED862 /* Green */;
-			targetProxy = BAFD2D6E2CB43762005ED862 /* PBXContainerItemProxy */;
-		};
-		BAFD2D792CB43762005ED862 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BAFD2D5B2CB43761005ED862 /* Green */;
-			targetProxy = BAFD2D782CB43762005ED862 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BAFD2D7F2CB43762005ED862 /* Debug */ = {
@@ -437,70 +293,6 @@
 			};
 			name = Release;
 		};
-		BAFD2D852CB43762005ED862 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ororura.GreenTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Green";
-			};
-			name = Debug;
-		};
-		BAFD2D862CB43762005ED862 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ororura.GreenTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Green";
-			};
-			name = Release;
-		};
-		BAFD2D882CB43762005ED862 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ororura.GreenUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Green;
-			};
-			name = Debug;
-		};
-		BAFD2D892CB43762005ED862 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ororura.GreenUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Green;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -518,24 +310,6 @@
 			buildConfigurations = (
 				BAFD2D822CB43762005ED862 /* Debug */,
 				BAFD2D832CB43762005ED862 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BAFD2D842CB43762005ED862 /* Build configuration list for PBXNativeTarget "GreenTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BAFD2D852CB43762005ED862 /* Debug */,
-				BAFD2D862CB43762005ED862 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BAFD2D872CB43762005ED862 /* Build configuration list for PBXNativeTarget "GreenUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BAFD2D882CB43762005ED862 /* Debug */,
-				BAFD2D892CB43762005ED862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

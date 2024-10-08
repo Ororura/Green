@@ -1,17 +1,13 @@
-//
-//  GreenApp.swift
-//  Green
-//
-//  Created by Egor Gladkikh on 07.10.2024.
-//
-
 import SwiftUI
 
 @main
 struct GreenApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // Пустое содержимое, оно будет заменено в AppDelegate
+            EmptyView()
         }
     }
 }
